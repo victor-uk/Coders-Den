@@ -73,13 +73,38 @@ let task = days.concat(" Javascript")
 
 // console.log(Math.floor(Math.random() * 101))
 // console.log(Math.floor(Math.random() * 51) + 50)
-console.log(Math.floor(Math.random() * 256))
+// console.log(Math.floor(Math.random() * 256))
 
-let numbers = `1 1 1 1 1 
-2 1 2 4 8
-3 1 3 9 27
-4 1 4 16 64
-5 1 5 25 125`
+// let numbers = `1 1 1 1 1 
+// 2 1 2 4 8
+// 3 1 3 9 27
+// 4 1 4 16 64
+// 5 1 5 25 125`
 
-console.log(numbers)
+// console.log(numbers)
 
+// console.log(sentence.indexOf('because'))
+// console.log(sentence.lastIndexOf('because'))
+
+// console.log(sentence.slice(31, 54))
+
+// let sentence3 = 'Love is the best thing in this world. Some found their love and some are still looking for their love.'
+
+// console.log(sentence3.match(/love/gi))
+
+// let arrayLove = sentence3.match(/love/gi)
+
+// console.log(arrayLove.length)
+
+// let array = sentence.match(/because/gi)
+// console.log(array.length)
+
+/* Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.' */
+
+let salaryPerMonth = 5000;
+let annualBonus = 10000;
+let onlineCoursePerMonth = 15000;
+
+let annualIncome = (salaryPerMonth + onlineCoursePerMonth) * 12 + 1000
+
+console.log(`His annual income is ${annualIncome} euro`)
