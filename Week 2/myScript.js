@@ -39,7 +39,7 @@ let space = ' 30 Days Of JavaScript '
 // console.log(challenge.startsWith('3'))
 // console.log(challenge.endsWith('t'))
 
-// console.log(challenge.match(/a/gi))
+console.log(challenge.match(/a/gi))
 
 let days = '30 Days of'
 
@@ -101,10 +101,10 @@ let task = days.concat(" Javascript")
 
 /* Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.' */
 
-let salaryPerMonth = 5000;
-let annualBonus = 10000;
-let onlineCoursePerMonth = 15000;
+// let salaryPerMonth = 5000;
+// let annualBonus = 10000;
+// let onlineCoursePerMonth = 15000;
 
-let annualIncome = (salaryPerMonth + onlineCoursePerMonth) * 12 + 1000
+// let annualIncome = (salaryPerMonth + onlineCoursePerMonth) * 12 + 1000
 
-console.log(`His annual income is ${annualIncome} euro`)
+// console.log(`His annual income is ${annualIncome} euro`)
